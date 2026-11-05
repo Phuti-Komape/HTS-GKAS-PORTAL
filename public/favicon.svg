@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b192c"/>
+      <stop offset="100%" stop-color="#1b2a47"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5c558"/>
+      <stop offset="50%" stop-color="#c8933a"/>
+      <stop offset="100%" stop-color="#9a6e23"/>
+    </linearGradient>
+    <linearGradient id="windowGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Decorative Ring -->
+  <circle cx="256" cy="256" r="226" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.5"/>
+  <circle cx="256" cy="256" r="218" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6 6" stroke-opacity="0.4"/>
+
+  <!-- Main Residence Building Emblem -->
+  <g filter="url(#shadow)">
+    <!-- Finial top spire -->
+    <path d="M256 68 L262 105 L250 105 Z" fill="url(#goldGrad)"/>
+    <circle cx="256" cy="64" r="5" fill="#fde68a"/>
+
+    <!-- Roof Pediment -->
+    <polygon points="256,92 120,188 392,188" fill="url(#goldGrad)" stroke="#fde68a" stroke-width="3"/>
+    
+    <!-- Roof Inner Medallion -->
+    <circle cx="256" cy="154" r="18" fill="#0b192c" stroke="#fde68a" stroke-width="2.5"/>
+    <path d="M256 142 L256 166 M244 154 L268 154" stroke="url(#goldGrad)" stroke-width="2"/>
+
+    <!-- Building Architrave -->
+    <rect x="136" y="188" width="240" height="20" fill="url(#goldGrad)"/>
+
+    <!-- Building Colonels / Pillars -->
+    <!-- Pillar 1 -->
+    <rect x="146" y="208" width="34" height="130" fill="url(#goldGrad)"/>
+    <!-- Pillar 2 -->
+    <rect x="208" y="208" width="34" height="130" fill="url(#goldGrad)"/>
+    <!-- Pillar 3 -->
+    <rect x="270" y="208" width="34" height="130" fill="url(#goldGrad)"/>
+    <!-- Pillar 4 -->
+    <rect x="332" y="208" width="34" height="130" fill="url(#goldGrad)"/>
+
+    <!-- Archways & Lit Windows between pillars -->
+    <!-- Window 1 -->
+    <path d="M185 240 Q194 228 203 240 L203 295 L185 295 Z" fill="url(#windowGlow)"/>
+    <!-- Main Center Doorway -->
+    <path d="M247 232 Q256 218 265 232 L265 338 L247 338 Z" fill="url(#windowGlow)"/>
+    <!-- Window 2 -->
+    <path d="M309 240 Q318 228 327 240 L327 295 L309 295 Z" fill="url(#windowGlow)"/>
+
+    <!-- Podium Steps Foundation -->
+    <rect x="126" y="338" width="260" height="16" fill="url(#goldGrad)"/>
+    <rect x="110" y="354" width="292" height="18" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- GKAS Typography -->
+  <text x="256" y="426" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="34" font-weight="800" letter-spacing="7" fill="url(#goldGrad)">
+    GKAS
+  </text>
+  <text x="256" y="454" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="4" fill="#94a3b8">
+    STUDENT RESIDENCES
+  </text>
+</svg>

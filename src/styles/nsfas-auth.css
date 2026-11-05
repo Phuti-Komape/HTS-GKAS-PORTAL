@@ -1,0 +1,423 @@
+/* ═══════════════════════════════════════════════════════════
+   NSFAS & HOUSING PORTAL AUTHENTICATION & REGISTRATION STYLES
+   Inspired by the official South African myNSFAS & Student Housing Portals
+═══════════════════════════════════════════════════════════ */
+
+#login-page {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  z-index: 1000;
+  background: var(--navy);
+  overflow: hidden;
+}
+#login-page.hidden {
+  display: none !important;
+}
+
+/* ─── Hero Left Branding ─── */
+.login-left {
+  width: 48%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #071220 0%, var(--navy) 50%, #152d4d 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 52px;
+  color: #ffffff;
+}
+@media (max-width: 900px) {
+  .login-left {
+    display: none;
+  }
+}
+
+.login-left-bg-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 36px, rgba(255, 255, 255, 0.4) 36px, rgba(255, 255, 255, 0.4) 37px),
+    repeating-linear-gradient(90deg, transparent, transparent 36px, rgba(255, 255, 255, 0.4) 36px, rgba(255, 255, 255, 0.4) 37px);
+}
+.login-left-circle-1,
+.login-left-circle-2 {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(200, 147, 58, 0.18);
+  pointer-events: none;
+}
+.login-left-circle-1 {
+  width: 500px;
+  height: 500px;
+  top: -100px;
+  right: -100px;
+}
+.login-left-circle-2 {
+  width: 800px;
+  height: 800px;
+  top: -200px;
+  right: -200px;
+}
+
+.nsfas-accreditation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(200, 147, 58, 0.15);
+  border: 1px solid rgba(200, 147, 58, 0.35);
+  border-radius: var(--radius-full);
+  padding: 6px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold-light);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.lp-headline {
+  font-family: var(--font-serif);
+  font-size: 46px;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.lp-headline em {
+  color: var(--gold-light);
+  font-style: italic;
+}
+.lp-sub {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.7;
+  max-width: 440px;
+  margin-bottom: 32px;
+}
+
+.lp-stats {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 36px;
+}
+.lps {
+  border-left: 2px solid rgba(200, 147, 58, 0.6);
+  padding-left: 14px;
+}
+.lps-n {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+.lps-l {
+  font-size: 10px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+/* Steps list on left panel */
+.nsfas-features-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+}
+.nfl-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  align-items: flex-start;
+}
+.nfl-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(200, 147, 58, 0.2);
+  border: 1px solid rgba(200, 147, 58, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold-light);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.nfl-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.nfl-desc {
+  font-size: 11px;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+/* ─── Right Form Panel ─── */
+.login-right {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 36px 32px;
+  overflow-y: auto;
+}
+
+.login-card-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto 0;
+}
+
+/* ─── Mode Selector Tabs ─── */
+.auth-mode-tabs {
+  display: flex;
+  background: var(--bg-alt);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 24px;
+  border: 1px solid var(--border);
+}
+.auth-mode-btn {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-sub);
+  transition: var(--transition);
+  min-height: 42px;
+  text-align: center;
+}
+.auth-mode-btn.active {
+  background: #ffffff;
+  color: var(--navy);
+  box-shadow: var(--shadow-sm);
+}
+.auth-mode-btn:focus-visible {
+  outline: 2px solid var(--gold);
+}
+
+/* ─── NSFAS 5-Step Stepper ─── */
+.nsfas-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.ns-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+.ns-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--bg-muted);
+  color: var(--text-sub);
+  border: 2px solid var(--border);
+  transition: var(--transition);
+}
+.ns-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-sub);
+  white-space: nowrap;
+}
+.ns-step.active .ns-dot {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+  box-shadow: 0 0 0 4px rgba(11, 25, 44, 0.12);
+}
+.ns-step.active .ns-label {
+  color: var(--navy);
+  font-weight: 700;
+}
+.ns-step.done .ns-dot {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+.ns-step.done .ns-label {
+  color: var(--green);
+}
+.ns-line {
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  margin: 0 -8px 16px;
+  transition: background 0.25s ease;
+}
+.ns-line.done {
+  background: var(--green);
+}
+
+/* ─── Upload Card in Registration ─── */
+.doc-upload-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: var(--bg-alt);
+  border: 1.5px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+  margin-bottom: 10px;
+}
+.doc-upload-box:hover {
+  border-color: var(--navy);
+  background: #ffffff;
+}
+.doc-upload-box.uploaded {
+  background: var(--green-soft);
+  border-color: var(--green);
+  border-style: solid;
+}
+.dub-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.dub-content {
+  flex: 1;
+  min-width: 0;
+}
+.dub-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+.dub-sub {
+  font-size: 11px;
+  color: var(--text-sub);
+}
+.dub-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  background: var(--bg-muted);
+  color: var(--text-sub);
+}
+.doc-upload-box.uploaded .dub-badge {
+  background: var(--green);
+  color: #fff;
+}
+
+/* ─── Demo Login Grid ─── */
+.demo-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+@media (max-width: 480px) {
+  .demo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.demo-btn {
+  padding: 10px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--text-sub);
+  transition: var(--transition);
+  text-align: center;
+  min-height: 48px;
+}
+.demo-btn:hover {
+  border-color: var(--navy);
+  background: #fff;
+  color: var(--navy);
+  box-shadow: var(--shadow-xs);
+}
+.demo-btn strong {
+  display: block;
+  color: var(--text-main);
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+/* ─── Application Track Box ─── */
+.track-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-top: 16px;
+}
+.track-timeline {
+  margin-top: 16px;
+  padding-left: 12px;
+  border-left: 2px solid var(--border);
+}
+.tt-step {
+  position: relative;
+  padding: 0 0 16px 18px;
+}
+.tt-step:last-child {
+  padding-bottom: 0;
+}
+.tt-dot {
+  position: absolute;
+  left: -19px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid var(--border-strong);
+}
+.tt-step.done .tt-dot {
+  background: var(--green);
+  border-color: var(--green);
+}
+.tt-step.active .tt-dot {
+  background: var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 147, 58, 0.25);
+}
+.tt-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+.tt-desc {
+  font-size: 11px;
+  color: var(--text-sub);
+  margin-top: 2px;
+}

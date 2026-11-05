@@ -1,0 +1,263 @@
+[
+  {
+    "id": "inst-ump",
+    "name": "University of Mpumalanga",
+    "short_name": "UMP",
+    "type": "Public University",
+    "campus": "Mbombela Campus (Main) & Siyabuswa",
+    "province": "Mpumalanga",
+    "is_active": true
+  },
+  {
+    "id": "inst-tut",
+    "name": "Tshwane University of Technology",
+    "short_name": "TUT",
+    "type": "Public University",
+    "campus": "Nelspruit / Mbombela Campus",
+    "province": "Mpumalanga",
+    "is_active": true
+  },
+  {
+    "id": "inst-ehlanzeni",
+    "name": "Ehlanzeni TVET College",
+    "short_name": "Ehlanzeni TVET",
+    "type": "TVET",
+    "campus": "Mbombela / KaNyamazane / Mlumati",
+    "province": "Mpumalanga",
+    "is_active": true
+  },
+  {
+    "id": "inst-gert-sibande",
+    "name": "Gert Sibande TVET College",
+    "short_name": "Gert Sibande TVET",
+    "type": "TVET",
+    "campus": "Ermelo / Standerton / Evander",
+    "province": "Mpumalanga",
+    "is_active": true
+  },
+  {
+    "id": "inst-nkangala",
+    "name": "Nkangala TVET College",
+    "short_name": "Nkangala TVET",
+    "type": "TVET",
+    "campus": "eMalahleni (Witbank) / Middelburg",
+    "province": "Mpumalanga",
+    "is_active": true
+  },
+  {
+    "id": "inst-uj",
+    "name": "University of Johannesburg",
+    "short_name": "UJ",
+    "type": "Public University",
+    "campus": "Auckland Park / Doornfontein / Soweto",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-wits",
+    "name": "University of the Witwatersrand",
+    "short_name": "Wits",
+    "type": "Public University",
+    "campus": "Braamfontein, Johannesburg",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-up",
+    "name": "University of Pretoria",
+    "short_name": "UP",
+    "type": "Public University",
+    "campus": "Hatfield / Hillcrest / Groenkloof",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-smu",
+    "name": "Sefako Makgatho Health Sciences University",
+    "short_name": "SMU",
+    "type": "Public University",
+    "campus": "Ga-Rankuwa, Pretoria",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-vut",
+    "name": "Vaal University of Technology",
+    "short_name": "VUT",
+    "type": "Public University",
+    "campus": "Vanderbijlpark / Secunda",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-unisa",
+    "name": "University of South Africa",
+    "short_name": "UNISA",
+    "type": "Public University",
+    "campus": "Muckleneuk / Sunnyside / Regional",
+    "province": "Gauteng",
+    "is_active": true
+  },
+  {
+    "id": "inst-uct",
+    "name": "University of Cape Town",
+    "short_name": "UCT",
+    "type": "Public University",
+    "campus": "Upper, Middle & Lower Campus, Rondebosch",
+    "province": "Western Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-su",
+    "name": "Stellenbosch University",
+    "short_name": "SU",
+    "type": "Public University",
+    "campus": "Stellenbosch / Tygerberg / Bellville",
+    "province": "Western Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-uwc",
+    "name": "University of the Western Cape",
+    "short_name": "UWC",
+    "type": "Public University",
+    "campus": "Bellville, Cape Town",
+    "province": "Western Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-cput",
+    "name": "Cape Peninsula University of Technology",
+    "short_name": "CPUT",
+    "type": "Public University",
+    "campus": "Bellville / District Six / Mowbray",
+    "province": "Western Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-ukzn",
+    "name": "University of KwaZulu-Natal",
+    "short_name": "UKZN",
+    "type": "Public University",
+    "campus": "Howard College / Westville / Pietermaritzburg",
+    "province": "KwaZulu-Natal",
+    "is_active": true
+  },
+  {
+    "id": "inst-dut",
+    "name": "Durban University of Technology",
+    "short_name": "DUT",
+    "type": "Public University",
+    "campus": "Steve Biko / ML Sultan / Indumiso",
+    "province": "KwaZulu-Natal",
+    "is_active": true
+  },
+  {
+    "id": "inst-mut",
+    "name": "Mangosuthu University of Technology",
+    "short_name": "MUT",
+    "type": "Public University",
+    "campus": "Umlazi, Durban",
+    "province": "KwaZulu-Natal",
+    "is_active": true
+  },
+  {
+    "id": "inst-unizulu",
+    "name": "University of Zululand",
+    "short_name": "UNIZULU",
+    "type": "Public University",
+    "campus": "KwaDlangezwa / Richards Bay",
+    "province": "KwaZulu-Natal",
+    "is_active": true
+  },
+  {
+    "id": "inst-nwu",
+    "name": "North-West University",
+    "short_name": "NWU",
+    "type": "Public University",
+    "campus": "Potchefstroom / Mahikeng / Vaal Triangle",
+    "province": "North West",
+    "is_active": true
+  },
+  {
+    "id": "inst-ufs",
+    "name": "University of the Free State",
+    "short_name": "UFS",
+    "type": "Public University",
+    "campus": "Bloemfontein / Qwaqwa / South Campus",
+    "province": "Free State",
+    "is_active": true
+  },
+  {
+    "id": "inst-cut",
+    "name": "Central University of Technology",
+    "short_name": "CUT",
+    "type": "Public University",
+    "campus": "Bloemfontein / Welkom",
+    "province": "Free State",
+    "is_active": true
+  },
+  {
+    "id": "inst-ru",
+    "name": "Rhodes University",
+    "short_name": "RU",
+    "type": "Public University",
+    "campus": "Makhanda (Grahamstown)",
+    "province": "Eastern Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-ufh",
+    "name": "University of Fort Hare",
+    "short_name": "UFH",
+    "type": "Public University",
+    "campus": "Alice / East London / Bhisho",
+    "province": "Eastern Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-nmu",
+    "name": "Nelson Mandela University",
+    "short_name": "NMU",
+    "type": "Public University",
+    "campus": "Gqeberha (Port Elizabeth) / George",
+    "province": "Eastern Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-wsu",
+    "name": "Walter Sisulu University",
+    "short_name": "WSU",
+    "type": "Public University",
+    "campus": "Mthatha / East London / Butterworth",
+    "province": "Eastern Cape",
+    "is_active": true
+  },
+  {
+    "id": "inst-ul",
+    "name": "University of Limpopo",
+    "short_name": "UL",
+    "type": "Public University",
+    "campus": "Turfloop Campus, Mankweng",
+    "province": "Limpopo",
+    "is_active": true
+  },
+  {
+    "id": "inst-univen",
+    "name": "University of Venda",
+    "short_name": "UNIVEN",
+    "type": "Public University",
+    "campus": "Thohoyandou",
+    "province": "Limpopo",
+    "is_active": true
+  },
+  {
+    "id": "inst-spu",
+    "name": "Sol Plaatje University",
+    "short_name": "SPU",
+    "type": "Public University",
+    "campus": "Kimberley",
+    "province": "Northern Cape",
+    "is_active": true
+  }
+]

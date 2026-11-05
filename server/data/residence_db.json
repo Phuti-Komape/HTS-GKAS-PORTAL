@@ -1,0 +1,1823 @@
+{
+  "users": {
+    "admin": {
+      "id": "usr_admin",
+      "name": "L. Marsher",
+      "role": "Administrator",
+      "roleKey": "admin",
+      "initials": "LM",
+      "residence": "All Residences",
+      "email": "l.marsher@hts-gkas.co.za"
+    },
+    "student": {
+      "id": "usr_student",
+      "name": "Thandeka Nkosi",
+      "role": "Student Resident",
+      "roleKey": "student",
+      "initials": "TN",
+      "residence": "GKAS Residence",
+      "room": "G-14",
+      "bed": "Bed A",
+      "institution": "Tshwane University of Technology (TUT)",
+      "studentNumber": "21304567",
+      "funding": "NSFAS Funded",
+      "nsfasRef": "NSFAS-2027-MP-8812",
+      "email": "t.nkosi@tut4life.ac.za",
+      "phone": "071 829 4012",
+      "leaseStart": "01 Feb 2027",
+      "leaseEnd": "30 Nov 2027"
+    }
+  },
+  "residences": [
+    {
+      "id": "gkas",
+      "name": "GKAS Residence",
+      "campus": "Sonheuwel Campus",
+      "totalBeds": 88,
+      "occupiedBeds": 76,
+      "maintenanceBeds": 2,
+      "availableBeds": 10,
+      "rateMonthly": 3200,
+      "rooms": [
+        {
+          "roomNumber": "G-01",
+          "type": "Double",
+          "beds": 2,
+          "occupied": 2,
+          "residents": [
+            "L. Khumalo",
+            "J. Sithole"
+          ]
+        },
+        {
+          "roomNumber": "G-05",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 1,
+          "residents": [
+            "Lwazi Motha"
+          ]
+        },
+        {
+          "roomNumber": "G-14",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 1,
+          "residents": [
+            "Thandeka Nkosi"
+          ]
+        },
+        {
+          "roomNumber": "G-22",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 0,
+          "status": "MOVEINPENDING",
+          "residents": [
+            "Amahle Zulu"
+          ]
+        },
+        {
+          "roomNumber": "G-31",
+          "type": "Double",
+          "beds": 2,
+          "occupied": 2,
+          "residents": [
+            "Zanele Mthembu",
+            "P. Ndlovu"
+          ]
+        },
+        {
+          "roomNumber": "G-34",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 1,
+          "residents": [
+            "K. Dube"
+          ]
+        },
+        {
+          "roomNumber": "G-55",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 0,
+          "status": "LEASEPENDING",
+          "residents": [
+            "Precious Khumalo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hts",
+      "name": "HTS Residence",
+      "campus": "Stonehenge Campus",
+      "totalBeds": 20,
+      "occupiedBeds": 16,
+      "maintenanceBeds": 1,
+      "availableBeds": 3,
+      "rateMonthly": 3400,
+      "rooms": [
+        {
+          "roomNumber": "H-03",
+          "type": "Double",
+          "beds": 2,
+          "occupied": 2,
+          "residents": [
+            "Bongani Ntuli",
+            "M. Sibeko"
+          ]
+        },
+        {
+          "roomNumber": "H-07",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 1,
+          "residents": [
+            "Sibusiso Dlamini"
+          ]
+        },
+        {
+          "roomNumber": "H-11",
+          "type": "Single",
+          "beds": 1,
+          "occupied": 1,
+          "residents": [
+            "D. Nzimande"
+          ]
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "HTS-MNT-2026-0041",
+      "icon": "🔧",
+      "bg": "#fee2e2",
+      "title": "Burst pipe in bathroom — Room H-7",
+      "meta": "HTS Stonehenge · S. Dlamini · 5 hrs ago",
+      "location": "Room H-7 Bathroom",
+      "residence": "HTS",
+      "priority": "urgent",
+      "status": "open",
+      "category": "Plumbing",
+      "studentName": "Sibusiso Dlamini",
+      "studentId": "21289034",
+      "createdAt": "2026-04-19T08:30:00Z",
+      "description": "High pressure water leaking from the under-sink pipe fitting. Turned off local isolator valve.",
+      "lastNotified": null
+    },
+    {
+      "id": "HTS-MNT-2026-0040",
+      "icon": "💡",
+      "bg": "#fef3c7",
+      "title": "Flickering lights in corridor — Block C",
+      "meta": "GKAS Sonheuwel · A. Zulu · 1 day ago",
+      "location": "GKAS Block C 2nd Floor Corridor",
+      "residence": "GKAS",
+      "priority": "medium",
+      "status": "open",
+      "category": "Electrical",
+      "studentName": "Amahle Zulu",
+      "studentId": "22301145",
+      "createdAt": "2026-04-18T14:15:00Z",
+      "description": "Fluorescent tubes in the passage are blinking rapidly at night causing eye strain.",
+      "lastNotified": null
+    },
+    {
+      "id": "HTS-MNT-2026-0037",
+      "icon": "🚿",
+      "bg": "#eff6ff",
+      "title": "Low hot water temperature — Ablution Block B",
+      "meta": "GKAS Sonheuwel · T. Nkosi · 3 days ago",
+      "location": "Ablution Block B (Female)",
+      "residence": "GKAS",
+      "priority": "low",
+      "status": "open",
+      "category": "Plumbing",
+      "studentName": "Thandeka Nkosi",
+      "studentId": "21304567",
+      "createdAt": "2026-04-16T07:45:00Z",
+      "description": "Geyser seems to be tripping before water reaches adequate temperature in the mornings.",
+      "lastNotified": null
+    },
+    {
+      "id": "HTS-MNT-2026-0033",
+      "icon": "✅",
+      "bg": "#e8f5e9",
+      "title": "Study lamp fixture replaced — Room G-14",
+      "meta": "GKAS Sonheuwel · T. Nkosi · Resolved 10 Apr",
+      "location": "Room G-14 Study Desk",
+      "residence": "GKAS",
+      "priority": "low",
+      "status": "resolved",
+      "category": "Electrical",
+      "studentName": "Thandeka Nkosi",
+      "studentId": "21304567",
+      "createdAt": "2026-04-09T09:00:00Z",
+      "description": "Desk lamp fixture replaced with new LED warm unit by technician.",
+      "lastNotified": null
+    }
+  ],
+  "applicants": [
+    {
+      "id": "APP-2027-3268",
+      "referenceNumber": "GKAS-2027-75830",
+      "initials": "PK",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "Phuti Komape",
+      "firstName": "Phuti",
+      "lastName": "Komape",
+      "meta": "University of Mpumalanga (UMP) · NSFAS Accredited · Just now",
+      "institution": "University of Mpumalanga (UMP)",
+      "institutionId": "inst-ump",
+      "isOtherInstitution": false,
+      "otherInstitutionName": null,
+      "otherInstitutionCampus": null,
+      "studentNumber": "240858999",
+      "idNumber": "0511166165080",
+      "dob": "2005-11-16",
+      "gender": "Male",
+      "isCitizen": true,
+      "phone": "067 462 2953",
+      "email": "pkomape27@gmail.com",
+      "isPhoneVerified": true,
+      "isEmailVerified": true,
+      "bgCheck": "pending",
+      "status": "approved",
+      "academicYear": 2027,
+      "funding": "NSFAS Accredited",
+      "fundingType": "nsfas",
+      "fundingStatus": "verified",
+      "bursarySponsorName": null,
+      "fundingReferenceNumber": null,
+      "proofOfFundingUrl": null,
+      "guardianName": null,
+      "guardianContact": null,
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room (Private)",
+      "submittedDate": "17 Oct 2026",
+      "processed": true,
+      "nsfasRef": "NSFAS-2027-MP-6172",
+      "documents": [
+        {
+          "id": "doc-1792233376704-1",
+          "documentType": "id_copy",
+          "fileName": "Komape_ID_Copy.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.05,
+          "notes": {
+            "luhn_verified": true,
+            "id_match": true
+          }
+        },
+        {
+          "id": "doc-1792233376704-2",
+          "documentType": "proof_of_registration",
+          "fileName": "Komape_Reg_2027.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.02,
+          "notes": {
+            "academic_year": 2027,
+            "institution_match": true
+          }
+        }
+      ],
+      "decision": "accepted",
+      "decisionReason": "All documents verified, funding confirmed, and 2027 bed allocated.",
+      "decidedBy": "L. Marsher",
+      "decidedAt": "2026-10-17T10:38:23.519Z",
+      "reviewedAt": "2026-10-17T10:38:23.519Z",
+      "fundingVerifiedAt": "2026-10-17T10:39:44.678Z",
+      "fundingVerifiedBy": "L. Marsher"
+    },
+    {
+      "id": "APP-2027-9349",
+      "referenceNumber": "GKAS-2027-87464",
+      "initials": "pk",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "phuti komape",
+      "firstName": "phuti",
+      "lastName": "komape",
+      "meta": "University of Mpumalanga (UMP) · NSFAS Accredited · Just now",
+      "institution": "University of Mpumalanga (UMP)",
+      "institutionId": "inst-ump",
+      "isOtherInstitution": false,
+      "otherInstitutionName": null,
+      "otherInstitutionCampus": null,
+      "studentNumber": "240858999",
+      "idNumber": "0511166165080",
+      "dob": "2005-11-16",
+      "gender": "Male",
+      "isCitizen": true,
+      "phone": "067 462 2953",
+      "email": "pkomape27@gmail.com",
+      "isPhoneVerified": true,
+      "isEmailVerified": true,
+      "bgCheck": "pending",
+      "status": "approved",
+      "academicYear": 2027,
+      "funding": "NSFAS Accredited",
+      "fundingType": "nsfas",
+      "fundingStatus": "verified",
+      "bursarySponsorName": null,
+      "fundingReferenceNumber": null,
+      "proofOfFundingUrl": null,
+      "guardianName": null,
+      "guardianContact": null,
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room (Private)",
+      "submittedDate": "15 Oct 2026",
+      "processed": true,
+      "nsfasRef": "NSFAS-2027-MP-7005",
+      "documents": [
+        {
+          "id": "doc-1792070588655-1",
+          "documentType": "id_copy",
+          "fileName": "komape_ID_Copy.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.05,
+          "notes": {
+            "luhn_verified": true,
+            "id_match": true
+          }
+        },
+        {
+          "id": "doc-1792070588655-2",
+          "documentType": "proof_of_registration",
+          "fileName": "komape_Reg_2027.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.02,
+          "notes": {
+            "academic_year": 2027,
+            "institution_match": true
+          }
+        }
+      ],
+      "decision": "accepted",
+      "decisionReason": "All documents verified, funding confirmed, and 2027 bed allocated.",
+      "decidedBy": "L. Marsher",
+      "decidedAt": "2026-10-15T13:25:37.809Z",
+      "reviewedAt": "2026-10-15T13:25:37.809Z",
+      "fundingVerifiedAt": "2026-10-15T13:25:39.989Z",
+      "fundingVerifiedBy": "L. Marsher"
+    },
+    {
+      "id": "APP-2027-8088",
+      "referenceNumber": "GKAS-2027-95211",
+      "initials": "BM",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "Bongani Mkhize",
+      "firstName": "Bongani",
+      "lastName": "Mkhize",
+      "meta": "Tshwane University of Technology · NSFAS Accredited · Just now",
+      "institution": "Tshwane University of Technology",
+      "institutionId": null,
+      "isOtherInstitution": false,
+      "otherInstitutionName": null,
+      "otherInstitutionCampus": null,
+      "studentNumber": "221049382",
+      "idNumber": "0301155123087",
+      "isCitizen": true,
+      "phone": "0821234567",
+      "email": "b.mkhize@tut4life.ac.za",
+      "isPhoneVerified": false,
+      "isEmailVerified": false,
+      "bgCheck": "pending",
+      "status": "approved",
+      "academicYear": 2027,
+      "funding": "NSFAS Accredited",
+      "fundingType": "nsfas",
+      "fundingStatus": "verified",
+      "bursarySponsorName": null,
+      "fundingReferenceNumber": "NSFAS-2027-89321",
+      "proofOfFundingUrl": null,
+      "guardianName": null,
+      "guardianContact": null,
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room",
+      "submittedDate": "15 Oct 2026",
+      "processed": true,
+      "nsfasRef": "NSFAS-2027-89321",
+      "documents": [
+        {
+          "id": "doc-1792069807475-1",
+          "documentType": "id_copy",
+          "fileName": "Mkhize_ID_Copy.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.05,
+          "notes": {
+            "luhn_verified": true,
+            "id_match": true
+          }
+        },
+        {
+          "id": "doc-1792069807475-2",
+          "documentType": "proof_of_registration",
+          "fileName": "Mkhize_Reg_2027.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.02,
+          "notes": {
+            "academic_year": 2027,
+            "institution_match": true
+          }
+        }
+      ],
+      "fundingVerifiedAt": "2026-10-15T13:10:08.753Z",
+      "fundingVerifiedBy": "L. Marsher",
+      "fundingRejectionReason": "NSFAS 2027 provisional list confirmed with TUT Financial Aid Office",
+      "decision": "accepted",
+      "decisionReason": "All credentials and 2027 DHET bursary eligibility verified",
+      "decidedBy": "L. Marsher",
+      "decidedAt": "2026-10-15T13:10:08.824Z",
+      "reviewedAt": "2026-10-15T13:10:08.824Z"
+    },
+    {
+      "id": "APP-2027-2979",
+      "referenceNumber": "GKAS-2027-75329",
+      "initials": "BM",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "Bongani Mkhize",
+      "firstName": "Bongani",
+      "lastName": "Mkhize",
+      "meta": "Tshwane University of Technology · NSFAS Accredited · Just now",
+      "institution": "Tshwane University of Technology",
+      "institutionId": null,
+      "isOtherInstitution": false,
+      "otherInstitutionName": null,
+      "otherInstitutionCampus": null,
+      "studentNumber": "221049382",
+      "idNumber": "0301155123087",
+      "isCitizen": true,
+      "phone": "0821234567",
+      "email": "b.mkhize@tut4life.ac.za",
+      "isPhoneVerified": false,
+      "isEmailVerified": false,
+      "bgCheck": "pending",
+      "status": "approved",
+      "funding": "NSFAS Accredited",
+      "fundingType": "nsfas",
+      "fundingStatus": "verified",
+      "bursarySponsorName": null,
+      "fundingReferenceNumber": "NSFAS-2027-89321",
+      "proofOfFundingUrl": null,
+      "guardianName": null,
+      "guardianContact": null,
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room",
+      "submittedDate": "15 Oct 2026",
+      "processed": true,
+      "nsfasRef": "NSFAS-2027-89321",
+      "documents": [
+        {
+          "id": "doc-1792069711072-1",
+          "documentType": "id_copy",
+          "fileName": "Mkhize_ID_Copy.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.05,
+          "notes": {
+            "luhn_verified": true,
+            "id_match": true
+          }
+        },
+        {
+          "id": "doc-1792069711072-2",
+          "documentType": "proof_of_registration",
+          "fileName": "Mkhize_Reg_2027.pdf",
+          "validationStatus": "valid",
+          "tamperScore": 0.02,
+          "notes": {
+            "academic_year": 2027,
+            "institution_match": true
+          }
+        }
+      ],
+      "fundingVerifiedAt": "2026-10-15T13:08:31.166Z",
+      "fundingVerifiedBy": "L. Marsher",
+      "fundingRejectionReason": "NSFAS 2027 provisional list confirmed with TUT Financial Aid Office",
+      "decision": "accepted",
+      "decisionReason": "All credentials and 2027 DHET bursary eligibility verified",
+      "decidedBy": "L. Marsher",
+      "decidedAt": "2026-10-15T13:08:31.194Z",
+      "reviewedAt": "2026-10-15T13:08:31.194Z"
+    },
+    {
+      "id": "APP-2027-9392",
+      "initials": "PK",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "Phuti Komape",
+      "meta": "University of Mpumalanga (UMP) · NSFAS Funded · Just now",
+      "institution": "University of Mpumalanga (UMP)",
+      "studentNumber": "240858999",
+      "idNumber": "0511166165080",
+      "phone": "0674622953",
+      "email": "pkomape27@gmail.com",
+      "bgCheck": "pending",
+      "funding": "NSFAS Funded",
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room (Private)",
+      "submittedDate": "15 Oct 2026",
+      "processed": false,
+      "nsfasRef": "NSFAS-2027-MP-9012"
+    },
+    {
+      "id": "APP-2027-1049",
+      "initials": "NS",
+      "bg": "#eff6ff",
+      "tc": "#1d4ed8",
+      "name": "Nonhlanhla Sibiya",
+      "meta": "TUT Nelspruit · NSFAS Approved · 2027 Intake",
+      "institution": "TUT",
+      "studentNumber": "22109438",
+      "idNumber": "0308150493081",
+      "bgCheck": "pending",
+      "funding": "nsfas",
+      "preferredResidence": "GKAS Residence (Sonheuwel)",
+      "roomType": "Single Room",
+      "submittedDate": "16 Oct 2026",
+      "processed": false
+    },
+    {
+      "id": "APP-2027-1048",
+      "initials": "KM",
+      "bg": "#e8f5e9",
+      "tc": "#15803d",
+      "name": "Karabo Mashile",
+      "meta": "University of Mpumalanga (UMP) · Self-funded · 2027 Intake",
+      "institution": "UMP",
+      "studentNumber": "21980345",
+      "idNumber": "0204125890087",
+      "bgCheck": "clear",
+      "funding": "self",
+      "preferredResidence": "HTS Residence (Stonehenge)",
+      "roomType": "Single Room",
+      "submittedDate": "14 Oct 2026",
+      "processed": false
+    }
+  ],
+  "bursaryApplications": [
+    {
+      "id": "BUR-2027-089",
+      "studentName": "Thandeka Nkosi",
+      "studentNumber": "21304567",
+      "institution": "TUT Nelspruit",
+      "submittedDate": "10 Feb 2027",
+      "status": "Under Review",
+      "fundingSource": "NSFAS & Institutional Top-up",
+      "documentsVerified": true
+    }
+  ],
+  "amenityBookings": [
+    {
+      "id": "BK-001",
+      "amenityId": "pool",
+      "amenityName": "Swimming Pool & Sun Deck",
+      "studentName": "Thandeka Nkosi",
+      "date": "2026-04-20",
+      "slot": "08:00 - 10:00",
+      "pax": 1,
+      "status": "Confirmed"
+    }
+  ],
+  "notices": [
+    {
+      "id": "notif_1",
+      "severity": "urgent",
+      "icon": "🚨",
+      "title": "Water Supply Disruption — GKAS Block C",
+      "body": "Scheduled municipal pressure maintenance on Tuesday 21 April 2026 from 09:00 to 11:30. Backup water tanks are connected to main ground taps.",
+      "date": "19 Apr 2026",
+      "author": "L. Marsher (Admin)",
+      "residence": "GKAS Sonheuwel",
+      "smsDispatched": true
+    },
+    {
+      "id": "notif_2",
+      "severity": "normal",
+      "icon": "📖",
+      "title": "Mid-Year Exam Quiet Hours Commencing 5 May",
+      "body": "Strict 24-hour study quiet periods will take effect from 5 May to 15 June 2026. Communal recreation rooms close at 21:00 during this window.",
+      "date": "18 Apr 2026",
+      "author": "L. Marsher (Admin)",
+      "residence": "All Residences",
+      "smsDispatched": false
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "aud_1793885408251_0lsc",
+      "type": "⚠️",
+      "bg": "#eff6ff",
+      "action": "2FA verification failed - maximum attempts (3) exceeded for 0856667788",
+      "meta": "system / 2026-11-05 13:30"
+    },
+    {
+      "id": "aud_1793885408224_z89r",
+      "type": "🔐",
+      "bg": "#eff6ff",
+      "action": "2FA verification succeeded for 0834445566",
+      "meta": "system / 2026-11-05 13:30"
+    },
+    {
+      "id": "aud_1793882512652_trmp",
+      "type": "🔑",
+      "bg": "#eff6ff",
+      "action": "Password reset dispatched for Student: t.nkosi@tut4life.ac.za",
+      "meta": "student / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512646_zqz7",
+      "type": "⚠️",
+      "bg": "#eff6ff",
+      "action": "Failed login attempt: Account not found for identifier \"unknown@fake.ac.za\"",
+      "meta": "system / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512641_z60o",
+      "type": "⚠️",
+      "bg": "#eff6ff",
+      "action": "Failed password attempt for Student Resident (21304567)",
+      "meta": "system / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512634_4yal",
+      "type": "🔐",
+      "bg": "#eff6ff",
+      "action": "Student resident authenticated: Thandeka Nkosi (21304567)",
+      "meta": "student / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512628_5g17",
+      "type": "🔐",
+      "bg": "#eff6ff",
+      "action": "Student resident authenticated: Thandeka Nkosi (21304567)",
+      "meta": "student / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512624_58xk",
+      "type": "⚠️",
+      "bg": "#eff6ff",
+      "action": "Failed password attempt for Administrator (l.marsher@hts-gkas.co.za)",
+      "meta": "system / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1793882512600_q0f7",
+      "type": "🔐",
+      "bg": "#eff6ff",
+      "action": "Administrator authenticated successfully: L. Marsher (l.marsher@hts-gkas.co.za)",
+      "meta": "admin / 2026-11-05 12:41"
+    },
+    {
+      "id": "aud_1792233584678_hngr",
+      "type": "💰",
+      "bg": "#eff6ff",
+      "action": "Funding status for Phuti Komape (GKAS-2027-75830) set to VERIFIED by L. Marsher",
+      "meta": "admin / 2026-10-17 10:39"
+    },
+    {
+      "id": "aud_1792233503526_u7ly",
+      "type": "✅",
+      "bg": "#e8f5e9",
+      "action": "Applicant Phuti Komape (GKAS-2027-75830) accepted by Admin L. Marsher",
+      "meta": "admin / 2026-10-17 10:38"
+    },
+    {
+      "id": "aud_1792233503523_mzn0",
+      "type": "📧",
+      "bg": "#eff6ff",
+      "action": "Acceptance email & DocuSign lease link dispatched to pkomape27@gmail.com",
+      "meta": "admin / 2026-10-17 10:38"
+    },
+    {
+      "id": "aud_1792233376725_tnvn",
+      "type": "📝",
+      "bg": "#eff6ff",
+      "action": "New student residence application lodged: Phuti Komape (Ref GKAS-2027-75830 / APP-2027-3268)",
+      "meta": "student / 2026-10-17 10:36"
+    },
+    {
+      "id": "aud_1792233376718_aqs0",
+      "type": "📬",
+      "bg": "#eff6ff",
+      "action": "Landlord alert dispatched to L. Marsher (l.marsher@hts-gkas.co.za) for Phuti Komape (GKAS-2027-75830)",
+      "meta": "system / 2026-10-17 10:36"
+    },
+    {
+      "id": "aud_1792233376714_vrxn",
+      "type": "✉️",
+      "bg": "#eff6ff",
+      "action": "Confirmation email & SMS dispatched to student (pkomape27@gmail.com / 067 462 2953) for GKAS-2027-75830",
+      "meta": "system / 2026-10-17 10:36"
+    },
+    {
+      "id": "aud_1792232571371_kt1n",
+      "type": "💰",
+      "bg": "#eff6ff",
+      "action": "Live Bank Feed Synchronized: NSFAS-GRANT-MP01 (+R16 800,00) matched to GKAS Residence",
+      "meta": "admin / 2026-10-17 10:22"
+    },
+    {
+      "id": "aud_1792070739989_cknj",
+      "type": "💰",
+      "bg": "#eff6ff",
+      "action": "Funding status for phuti komape (GKAS-2027-87464) set to VERIFIED by L. Marsher",
+      "meta": "admin / 2026-10-15 13:25"
+    },
+    {
+      "id": "aud_1792070737832_a37c",
+      "type": "✅",
+      "bg": "#e8f5e9",
+      "action": "Applicant phuti komape (GKAS-2027-87464) accepted by Admin L. Marsher",
+      "meta": "admin / 2026-10-15 13:25"
+    },
+    {
+      "id": "aud_1792070737814_7wa7",
+      "type": "📧",
+      "bg": "#eff6ff",
+      "action": "Acceptance email & DocuSign lease link dispatched to pkomape27@gmail.com",
+      "meta": "admin / 2026-10-15 13:25"
+    },
+    {
+      "id": "aud_1792070588681_rrac",
+      "type": "📝",
+      "bg": "#eff6ff",
+      "action": "New student residence application lodged: phuti komape (Ref GKAS-2027-87464 / APP-2027-9349)",
+      "meta": "student / 2026-10-15 13:23"
+    },
+    {
+      "id": "aud_1792070588678_iez6",
+      "type": "📬",
+      "bg": "#eff6ff",
+      "action": "Landlord alert dispatched to L. Marsher (l.marsher@hts-gkas.co.za) for phuti komape (GKAS-2027-87464)",
+      "meta": "system / 2026-10-15 13:23"
+    },
+    {
+      "id": "aud_1792070588675_9ap9",
+      "type": "✉️",
+      "bg": "#eff6ff",
+      "action": "Confirmation email & SMS dispatched to student (pkomape27@gmail.com / 067 462 2953) for GKAS-2027-87464",
+      "meta": "system / 2026-10-15 13:23"
+    },
+    {
+      "id": "aud_1792069808833_k5p6",
+      "type": "✅",
+      "bg": "#e8f5e9",
+      "action": "Applicant Bongani Mkhize (GKAS-2027-95211) accepted by Admin L. Marsher",
+      "meta": "admin / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069808828_pgd5",
+      "type": "📧",
+      "bg": "#eff6ff",
+      "action": "Acceptance email & DocuSign lease link dispatched to b.mkhize@tut4life.ac.za",
+      "meta": "admin / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069808753_j7pz",
+      "type": "💰",
+      "bg": "#eff6ff",
+      "action": "Funding status for Bongani Mkhize (GKAS-2027-95211) set to VERIFIED by L. Marsher (NSFAS 2027 provisional list confirmed with TUT Financial Aid Office)",
+      "meta": "admin / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069808013_eei6",
+      "type": "📝",
+      "bg": "#eff6ff",
+      "action": "New student residence application lodged: Bongani Mkhize (Ref GKAS-2027-95211 / APP-2027-8088)",
+      "meta": "student / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069807754_s9gp",
+      "type": "📬",
+      "bg": "#eff6ff",
+      "action": "Landlord alert dispatched to L. Marsher (l.marsher@hts-gkas.co.za) for Bongani Mkhize (GKAS-2027-95211)",
+      "meta": "system / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069807641_t2jt",
+      "type": "✉️",
+      "bg": "#eff6ff",
+      "action": "Confirmation email & SMS dispatched to student (b.mkhize@tut4life.ac.za / 0821234567) for GKAS-2027-95211",
+      "meta": "system / 2026-10-15 13:10"
+    },
+    {
+      "id": "aud_1792069711203_ckau",
+      "type": "✅",
+      "bg": "#e8f5e9",
+      "action": "Applicant Bongani Mkhize (GKAS-2027-75329) accepted by Admin L. Marsher",
+      "meta": "admin / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792069711199_l4o3",
+      "type": "📧",
+      "bg": "#eff6ff",
+      "action": "Acceptance email & DocuSign lease link dispatched to b.mkhize@tut4life.ac.za",
+      "meta": "admin / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792069711166_wzve",
+      "type": "💰",
+      "bg": "#eff6ff",
+      "action": "Funding status for Bongani Mkhize (GKAS-2027-75329) set to VERIFIED by L. Marsher (NSFAS 2027 provisional list confirmed with TUT Financial Aid Office)",
+      "meta": "admin / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792069711092_ypvy",
+      "type": "📝",
+      "bg": "#eff6ff",
+      "action": "New student residence application lodged: Bongani Mkhize (Ref GKAS-2027-75329 / APP-2027-2979)",
+      "meta": "student / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792069711088_c535",
+      "type": "📬",
+      "bg": "#eff6ff",
+      "action": "Landlord alert dispatched to L. Marsher (l.marsher@hts-gkas.co.za) for Bongani Mkhize (GKAS-2027-75329)",
+      "meta": "system / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792069711079_p3jm",
+      "type": "✉️",
+      "bg": "#eff6ff",
+      "action": "Confirmation email & SMS dispatched to student (b.mkhize@tut4life.ac.za / 0821234567) for GKAS-2027-75329",
+      "meta": "system / 2026-10-15 13:08"
+    },
+    {
+      "id": "aud_1792064454744_45uq",
+      "type": "📝",
+      "bg": "#eff6ff",
+      "action": "New student residence application lodged: Phuti Komape (APP-2027-9392)",
+      "meta": "student / 2026-10-15 11:40"
+    },
+    {
+      "id": "aud_1",
+      "type": "🔐",
+      "bg": "#eff6ff",
+      "action": "Admin L. Marsher signed in securely from authenticated session",
+      "meta": "admin / 2026-04-19 08:14"
+    },
+    {
+      "id": "aud_2",
+      "type": "✍️",
+      "bg": "#e8f5e9",
+      "action": "DocuSign lease envelope DSENV-2842 verified & counter-signed for T. Nkosi (Room G-14)",
+      "meta": "system / 2026-04-19 10:32"
+    },
+    {
+      "id": "aud_3",
+      "type": "💰",
+      "bg": "#fef3c7",
+      "action": "Bank Feed synced: Standard Bank corporate account 042881924 (+R126,400.00 NSFAS batch)",
+      "meta": "system / 2026-04-18 09:00"
+    }
+  ],
+  "bankAccount": {
+    "bankName": "Standard Bank South Africa",
+    "accountHolder": "HTS & GKAS Student Residences (Pty) Ltd",
+    "accountNumber": "042 881 924",
+    "branchCode": "051001",
+    "branchName": "Nelspruit Commercial",
+    "accountType": "Commercial Cheque Account",
+    "currency": "ZAR",
+    "currentBalance": 1499400,
+    "availableBalance": 1499400,
+    "lastSyncedAt": "2026-10-17T10:22:51.307Z",
+    "status": "Connected & Active",
+    "feedProvider": "Stitch / Open Banking Direct API",
+    "autoReconciliationEnabled": true
+  },
+  "transactions": [
+    {
+      "id": "TXN-SB-2027-8922",
+      "date": "2026-10-17T10:22:51.307Z",
+      "reference": "NSFAS-GRANT-MP01",
+      "description": "ELECTRONIC BANK TRANSFER - NSFAS-GRANT-MP01",
+      "counterparty": "NSFAS Top-Up Grant (Direct EFT)",
+      "counterpartyBank": "Standard Bank South Africa",
+      "amount": 16800,
+      "type": "credit",
+      "category": "Monthly Rental",
+      "status": "Auto-Matched",
+      "matchedStudentId": "ACC-VERIFIED",
+      "matchedRoom": "GKAS Residence",
+      "reconciledAt": "2026-10-17T10:22:51.307Z",
+      "reconciledBy": "Live Bank Sync API"
+    },
+    {
+      "id": "TXN-SB-2027-8910",
+      "date": "2027-02-18T08:45:00Z",
+      "reference": "NSFAS-2027-MP-8812",
+      "description": "NSFAS BULK ACCOM DISBURSEMENT 2027",
+      "counterparty": "National Student Financial Aid Scheme",
+      "counterpartyBank": "Nedbank Corporate",
+      "amount": 126400,
+      "type": "credit",
+      "category": "NSFAS Bulk Allocation",
+      "status": "Reconciled",
+      "matchedStudentId": "NSFAS-BULK",
+      "matchedRoom": "39 Accredited Beds",
+      "reconciledAt": "2027-02-18T09:00:00Z",
+      "reconciledBy": "L. Marsher"
+    },
+    {
+      "id": "TXN-SB-2027-8909",
+      "date": "2027-02-17T11:20:00Z",
+      "reference": "GKAS-G14-NKOSI",
+      "description": "EFT PAYMENT - THANDEKA NKOSI ACC",
+      "counterparty": "T. Nkosi (Capitec Bank)",
+      "counterpartyBank": "Capitec Bank (470010)",
+      "amount": 3200,
+      "type": "credit",
+      "category": "Monthly Rental",
+      "status": "Reconciled",
+      "matchedStudentId": "21304567",
+      "matchedRoom": "G-14 (GKAS)",
+      "reconciledAt": "2027-02-17T11:30:00Z",
+      "reconciledBy": "Auto-Match Rule"
+    },
+    {
+      "id": "TXN-SB-2027-8908",
+      "date": "2027-02-16T14:10:00Z",
+      "reference": "HTS-H07-DLAMINI",
+      "description": "INTERNET BANKING TRANSFER S DLAMINI",
+      "counterparty": "S. Dlamini (FNB Cheque)",
+      "counterpartyBank": "First National Bank (250655)",
+      "amount": 3400,
+      "type": "credit",
+      "category": "Monthly Rental",
+      "status": "Reconciled",
+      "matchedStudentId": "21289034",
+      "matchedRoom": "H-07 (HTS)",
+      "reconciledAt": "2027-02-16T14:20:00Z",
+      "reconciledBy": "Auto-Match Rule"
+    },
+    {
+      "id": "TXN-SB-2027-8907",
+      "date": "2027-02-15T09:30:00Z",
+      "reference": "MUN-MBOMB-UTL-042",
+      "description": "CITY OF MBOMBELA WATER & SEWAGE ABLUTIONS",
+      "counterparty": "City of Mbombela Municipality",
+      "counterpartyBank": "Absa Public Sector",
+      "amount": -14250,
+      "type": "debit",
+      "category": "Municipal Utilities",
+      "status": "Reconciled",
+      "matchedStudentId": null,
+      "matchedRoom": "GKAS & HTS Facilities",
+      "reconciledAt": "2027-02-15T10:00:00Z",
+      "reconciledBy": "L. Marsher"
+    },
+    {
+      "id": "TXN-SB-2027-8906",
+      "date": "2027-02-14T16:05:00Z",
+      "reference": "EFT-DEP-ZULU-G22",
+      "description": "DIRECT DEPOSIT ADVANCE - AMAHLE ZULU",
+      "counterparty": "A. Zulu (Nedbank Current)",
+      "counterpartyBank": "Nedbank (198765)",
+      "amount": 3200,
+      "type": "credit",
+      "category": "Rental Deposit",
+      "status": "Pending Match",
+      "matchedStudentId": "22301145",
+      "matchedRoom": "G-22 (GKAS)",
+      "reconciledAt": null,
+      "reconciledBy": null
+    }
+  ],
+  "institutions": [
+    {
+      "id": "inst-ump",
+      "name": "University of Mpumalanga",
+      "short_name": "UMP",
+      "type": "Public University",
+      "campus": "Mbombela Campus (Main) & Siyabuswa",
+      "province": "Mpumalanga",
+      "is_active": true
+    },
+    {
+      "id": "inst-tut",
+      "name": "Tshwane University of Technology",
+      "short_name": "TUT",
+      "type": "Public University",
+      "campus": "Nelspruit / Mbombela Campus",
+      "province": "Mpumalanga",
+      "is_active": true
+    },
+    {
+      "id": "inst-ehlanzeni",
+      "name": "Ehlanzeni TVET College",
+      "short_name": "Ehlanzeni TVET",
+      "type": "TVET",
+      "campus": "Mbombela / KaNyamazane / Mlumati",
+      "province": "Mpumalanga",
+      "is_active": true
+    },
+    {
+      "id": "inst-gert-sibande",
+      "name": "Gert Sibande TVET College",
+      "short_name": "Gert Sibande TVET",
+      "type": "TVET",
+      "campus": "Ermelo / Standerton / Evander",
+      "province": "Mpumalanga",
+      "is_active": true
+    },
+    {
+      "id": "inst-nkangala",
+      "name": "Nkangala TVET College",
+      "short_name": "Nkangala TVET",
+      "type": "TVET",
+      "campus": "eMalahleni (Witbank) / Middelburg",
+      "province": "Mpumalanga",
+      "is_active": true
+    },
+    {
+      "id": "inst-uj",
+      "name": "University of Johannesburg",
+      "short_name": "UJ",
+      "type": "Public University",
+      "campus": "Auckland Park / Doornfontein / Soweto",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-wits",
+      "name": "University of the Witwatersrand",
+      "short_name": "Wits",
+      "type": "Public University",
+      "campus": "Braamfontein, Johannesburg",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-up",
+      "name": "University of Pretoria",
+      "short_name": "UP",
+      "type": "Public University",
+      "campus": "Hatfield / Hillcrest / Groenkloof",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-smu",
+      "name": "Sefako Makgatho Health Sciences University",
+      "short_name": "SMU",
+      "type": "Public University",
+      "campus": "Ga-Rankuwa, Pretoria",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-vut",
+      "name": "Vaal University of Technology",
+      "short_name": "VUT",
+      "type": "Public University",
+      "campus": "Vanderbijlpark / Secunda",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-unisa",
+      "name": "University of South Africa",
+      "short_name": "UNISA",
+      "type": "Public University",
+      "campus": "Muckleneuk / Sunnyside / Regional",
+      "province": "Gauteng",
+      "is_active": true
+    },
+    {
+      "id": "inst-uct",
+      "name": "University of Cape Town",
+      "short_name": "UCT",
+      "type": "Public University",
+      "campus": "Upper, Middle & Lower Campus, Rondebosch",
+      "province": "Western Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-su",
+      "name": "Stellenbosch University",
+      "short_name": "SU",
+      "type": "Public University",
+      "campus": "Stellenbosch / Tygerberg / Bellville",
+      "province": "Western Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-uwc",
+      "name": "University of the Western Cape",
+      "short_name": "UWC",
+      "type": "Public University",
+      "campus": "Bellville, Cape Town",
+      "province": "Western Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-cput",
+      "name": "Cape Peninsula University of Technology",
+      "short_name": "CPUT",
+      "type": "Public University",
+      "campus": "Bellville / District Six / Mowbray",
+      "province": "Western Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-ukzn",
+      "name": "University of KwaZulu-Natal",
+      "short_name": "UKZN",
+      "type": "Public University",
+      "campus": "Howard College / Westville / Pietermaritzburg",
+      "province": "KwaZulu-Natal",
+      "is_active": true
+    },
+    {
+      "id": "inst-dut",
+      "name": "Durban University of Technology",
+      "short_name": "DUT",
+      "type": "Public University",
+      "campus": "Steve Biko / ML Sultan / Indumiso",
+      "province": "KwaZulu-Natal",
+      "is_active": true
+    },
+    {
+      "id": "inst-mut",
+      "name": "Mangosuthu University of Technology",
+      "short_name": "MUT",
+      "type": "Public University",
+      "campus": "Umlazi, Durban",
+      "province": "KwaZulu-Natal",
+      "is_active": true
+    },
+    {
+      "id": "inst-unizulu",
+      "name": "University of Zululand",
+      "short_name": "UNIZULU",
+      "type": "Public University",
+      "campus": "KwaDlangezwa / Richards Bay",
+      "province": "KwaZulu-Natal",
+      "is_active": true
+    },
+    {
+      "id": "inst-nwu",
+      "name": "North-West University",
+      "short_name": "NWU",
+      "type": "Public University",
+      "campus": "Potchefstroom / Mahikeng / Vaal Triangle",
+      "province": "North West",
+      "is_active": true
+    },
+    {
+      "id": "inst-ufs",
+      "name": "University of the Free State",
+      "short_name": "UFS",
+      "type": "Public University",
+      "campus": "Bloemfontein / Qwaqwa / South Campus",
+      "province": "Free State",
+      "is_active": true
+    },
+    {
+      "id": "inst-cut",
+      "name": "Central University of Technology",
+      "short_name": "CUT",
+      "type": "Public University",
+      "campus": "Bloemfontein / Welkom",
+      "province": "Free State",
+      "is_active": true
+    },
+    {
+      "id": "inst-ru",
+      "name": "Rhodes University",
+      "short_name": "RU",
+      "type": "Public University",
+      "campus": "Makhanda (Grahamstown)",
+      "province": "Eastern Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-ufh",
+      "name": "University of Fort Hare",
+      "short_name": "UFH",
+      "type": "Public University",
+      "campus": "Alice / East London / Bhisho",
+      "province": "Eastern Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-nmu",
+      "name": "Nelson Mandela University",
+      "short_name": "NMU",
+      "type": "Public University",
+      "campus": "Gqeberha (Port Elizabeth) / George",
+      "province": "Eastern Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-wsu",
+      "name": "Walter Sisulu University",
+      "short_name": "WSU",
+      "type": "Public University",
+      "campus": "Mthatha / East London / Butterworth",
+      "province": "Eastern Cape",
+      "is_active": true
+    },
+    {
+      "id": "inst-ul",
+      "name": "University of Limpopo",
+      "short_name": "UL",
+      "type": "Public University",
+      "campus": "Turfloop Campus, Mankweng",
+      "province": "Limpopo",
+      "is_active": true
+    },
+    {
+      "id": "inst-univen",
+      "name": "University of Venda",
+      "short_name": "UNIVEN",
+      "type": "Public University",
+      "campus": "Thohoyandou",
+      "province": "Limpopo",
+      "is_active": true
+    },
+    {
+      "id": "inst-spu",
+      "name": "Sol Plaatje University",
+      "short_name": "SPU",
+      "type": "Public University",
+      "campus": "Kimberley",
+      "province": "Northern Cape",
+      "is_active": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1793882512657-671",
+      "user_id": "usr_student",
+      "title": "Password Reset Request Dispatched",
+      "message": "A secure password reset authorization token was generated for your student account (t.nkosi@tut4life.ac.za).",
+      "type": "info",
+      "link_url": "/#login",
+      "is_read": false,
+      "created_at": "2026-11-05T12:41:52.658Z"
+    },
+    {
+      "id": "notif-1792233503519-932",
+      "user_id": "usr_student",
+      "title": "Congratulations! Residence Offer & Lease Ready",
+      "message": "Your 2027 application (GKAS-2027-75830) for GKAS Residence (Sonheuwel) has been APPROVED! Please proceed to review and sign your digital lease agreement.",
+      "type": "success",
+      "link_url": "/portal/lease",
+      "is_read": false,
+      "created_at": "2026-10-17T10:38:23.519Z"
+    },
+    {
+      "id": "notif-1792233376709-118",
+      "user_id": "usr_admin",
+      "title": "New Student Application: Phuti Komape",
+      "message": "New student registration lodged: Phuti Komape (University of Mpumalanga (UMP)). Ref: GKAS-2027-75830. Funding: NSFAS Accredited. Documents ready for review.",
+      "type": "action_required",
+      "link_url": "/portal/applications",
+      "is_read": false,
+      "created_at": "2026-10-17T10:36:16.709Z"
+    },
+    {
+      "id": "notif-1792233376705-950",
+      "user_id": "usr_student",
+      "title": "Application Lodged — GKAS Residence",
+      "message": "Your accommodation application (Ref: GKAS-2027-75830) for the 2027 academic year has been received. Status: PENDING verification by residence management.",
+      "type": "info",
+      "link_url": "/portal/dashboard",
+      "is_read": false,
+      "created_at": "2026-10-17T10:36:16.705Z"
+    },
+    {
+      "id": "notif-1792070737809-990",
+      "user_id": "usr_student",
+      "title": "Congratulations! Residence Offer & Lease Ready",
+      "message": "Your 2027 application (GKAS-2027-87464) for GKAS Residence (Sonheuwel) has been APPROVED! Please proceed to review and sign your digital lease agreement.",
+      "type": "success",
+      "link_url": "/portal/lease",
+      "is_read": false,
+      "created_at": "2026-10-15T13:25:37.810Z"
+    },
+    {
+      "id": "notif-1792070588671-516",
+      "user_id": "usr_admin",
+      "title": "New Student Application: phuti komape",
+      "message": "New student registration lodged: phuti komape (University of Mpumalanga (UMP)). Ref: GKAS-2027-87464. Funding: NSFAS Accredited. Documents ready for review.",
+      "type": "action_required",
+      "link_url": "/portal/applications",
+      "is_read": false,
+      "created_at": "2026-10-15T13:23:08.671Z"
+    },
+    {
+      "id": "notif-1792070588656-448",
+      "user_id": "usr_student",
+      "title": "Application Lodged — GKAS Residence",
+      "message": "Your accommodation application (Ref: GKAS-2027-87464) for the 2027 academic year has been received. Status: PENDING verification by residence management.",
+      "type": "info",
+      "link_url": "/portal/dashboard",
+      "is_read": false,
+      "created_at": "2026-10-15T13:23:08.656Z"
+    },
+    {
+      "id": "notif-1792069808824-654",
+      "user_id": "usr_student",
+      "title": "Congratulations! Residence Offer & Lease Ready",
+      "message": "Your 2027 application (GKAS-2027-95211) for GKAS Residence (Sonheuwel) has been APPROVED! Please proceed to review and sign your digital lease agreement.",
+      "type": "success",
+      "link_url": "/portal/lease",
+      "is_read": false,
+      "created_at": "2026-10-15T13:10:08.824Z"
+    },
+    {
+      "id": "notif-1792069807579-746",
+      "user_id": "usr_admin",
+      "title": "New Student Application: Bongani Mkhize",
+      "message": "New student registration lodged: Bongani Mkhize (Tshwane University of Technology). Ref: GKAS-2027-95211. Funding: NSFAS Accredited. Documents ready for review.",
+      "type": "action_required",
+      "link_url": "/portal/applications",
+      "is_read": false,
+      "created_at": "2026-10-15T13:10:07.613Z"
+    },
+    {
+      "id": "notif-1792069807475-437",
+      "user_id": "usr_student",
+      "title": "Application Lodged — GKAS Residence",
+      "message": "Your accommodation application (Ref: GKAS-2027-95211) for the 2027 academic year has been received. Status: PENDING verification by residence management.",
+      "type": "info",
+      "link_url": "/portal/dashboard",
+      "is_read": false,
+      "created_at": "2026-10-15T13:10:07.475Z"
+    },
+    {
+      "id": "notif-1792069711194-367",
+      "user_id": "usr_student",
+      "title": "Congratulations! Residence Offer & Lease Ready",
+      "message": "Your 2027 application (GKAS-2027-75329) for GKAS Residence (Sonheuwel) has been APPROVED! Please proceed to review and sign your digital lease agreement.",
+      "type": "success",
+      "link_url": "/portal/lease",
+      "is_read": false,
+      "created_at": "2026-10-15T13:08:31.194Z"
+    },
+    {
+      "id": "notif-1792069711076-596",
+      "user_id": "usr_admin",
+      "title": "New Student Application: Bongani Mkhize",
+      "message": "New student registration lodged: Bongani Mkhize (Tshwane University of Technology). Ref: GKAS-2027-75329. Funding: NSFAS Accredited. Documents ready for review.",
+      "type": "action_required",
+      "link_url": "/portal/applications",
+      "is_read": false,
+      "created_at": "2026-10-15T13:08:31.076Z"
+    },
+    {
+      "id": "notif-1792069711072-684",
+      "user_id": "usr_student",
+      "title": "Application Lodged — GKAS Residence",
+      "message": "Your accommodation application (Ref: GKAS-2027-75329) for the 2027 academic year has been received. Status: PENDING verification by residence management.",
+      "type": "info",
+      "link_url": "/portal/dashboard",
+      "is_read": false,
+      "created_at": "2026-10-15T13:08:31.072Z"
+    },
+    {
+      "id": "notif-001",
+      "user_id": "usr_student",
+      "title": "2027 Lease Agreement Ready",
+      "message": "Your official 2027 residence lease agreement has been counter-signed for GKAS Room G-14.",
+      "type": "success",
+      "link_url": "/portal/lease",
+      "is_read": false,
+      "created_at": "2027-02-01T08:00:00Z"
+    },
+    {
+      "id": "notif-002",
+      "user_id": "usr_student",
+      "title": "Move-in Condition Inspection",
+      "message": "Please complete your digital photographic room inventory check within 48 hours of arrival.",
+      "type": "action_required",
+      "link_url": "/portal/movein",
+      "is_read": false,
+      "created_at": "2027-02-01T09:30:00Z"
+    }
+  ],
+  "applicationDocuments": [
+    {
+      "id": "doc_1793885408281_464",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "completely_innocent_name.pdf",
+      "fileSizeBytes": 99,
+      "mimeType": "application/pdf",
+      "validationStatus": "tampered",
+      "tamperScore": 0.88,
+      "metadataProducer": "Adobe Photoshop CC / Canva / GIMP (Detected in Buffer Metadata)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "magic_bytes_verified": true,
+        "tamper_risk": "high",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-11-05T13:30:08.281Z"
+    },
+    {
+      "id": "doc_1793885408277_469",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "uploaded_via_web.pdf",
+      "fileSizeBytes": 36,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.04,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean Binary Stream)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "magic_bytes_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-11-05T13:30:08.277Z"
+    },
+    {
+      "id": "doc_1793885408271_236",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "scan_id.jpg",
+      "fileSizeBytes": 11,
+      "mimeType": "image/jpeg",
+      "validationStatus": "valid",
+      "tamperScore": 0.04,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean Binary Stream)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "magic_bytes_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-11-05T13:30:08.271Z"
+    },
+    {
+      "id": "doc_1793885408268_932",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "scan_id.png",
+      "fileSizeBytes": 16,
+      "mimeType": "image/png",
+      "validationStatus": "valid",
+      "tamperScore": 0.04,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean Binary Stream)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "magic_bytes_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-11-05T13:30:08.268Z"
+    },
+    {
+      "id": "doc_1793885408264_691",
+      "applicationId": "APP-TEST-001",
+      "documentType": "id_copy",
+      "fileName": "student_id.pdf",
+      "fileSizeBytes": 67,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.04,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean Binary Stream)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "magic_bytes_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-11-05T13:30:08.264Z"
+    },
+    {
+      "id": "doc_1792233166092_974",
+      "applicationId": "APP-2027-1049",
+      "documentType": "funding_letter",
+      "fileName": "Komape_Funding_Award.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-17T10:32:46.092Z"
+    },
+    {
+      "id": "doc_1792233161878_507",
+      "applicationId": "APP-2027-1049",
+      "documentType": "proof_of_registration",
+      "fileName": "Komape_2027_Proof_of_Reg.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-17T10:32:41.878Z"
+    },
+    {
+      "id": "doc_1792233157092_525",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "Komape_Certified_ID.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-17T10:32:37.093Z"
+    },
+    {
+      "id": "doc_1792223421856_315",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "sa_id_document.pdf",
+      "fileSizeBytes": 1200000,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-17T07:50:21.856Z"
+    },
+    {
+      "id": "doc_1792070581444_762",
+      "applicationId": "APP-2027-1049",
+      "documentType": "funding_letter",
+      "fileName": "komape_Funding_Award.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-15T13:23:01.444Z"
+    },
+    {
+      "id": "doc_1792070580416_807",
+      "applicationId": "APP-2027-1049",
+      "documentType": "proof_of_registration",
+      "fileName": "komape_2027_Proof_of_Reg.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-15T13:23:00.422Z"
+    },
+    {
+      "id": "doc_1792070570970_523",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "komape_Certified_ID.pdf",
+      "fileSizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-15T13:22:50.971Z"
+    },
+    {
+      "id": "doc_1792069656721_92",
+      "applicationId": "APP-2027-1049",
+      "documentType": "id_copy",
+      "fileName": "sa_id_document.pdf",
+      "fileSizeBytes": 1200000,
+      "mimeType": "application/pdf",
+      "validationStatus": "valid",
+      "tamperScore": 0.05,
+      "metadataProducer": "Fujitsu fi-7160 / Canon Scanner (Clean)",
+      "validationNotes": {
+        "luhn_verified": true,
+        "tamper_risk": "low",
+        "name_match": true,
+        "id_match": true,
+        "institution_match": true
+      },
+      "createdAt": "2026-10-15T13:07:36.721Z"
+    }
+  ],
+  "otpChallenges": {
+    "067 462 2953": {
+      "code": "784210",
+      "type": "sms",
+      "sentAt": "2026-10-15T13:16:42.168Z",
+      "expiresAt": "2026-10-15T13:26:42.168Z"
+    },
+    "0821112233": {
+      "hash": "b4cc64bfe8eac3e0a8dc5b455492a0c30cedc0b2faa1ee8e82e19c23a005cd46",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.129Z",
+      "expiresAt": "2026-11-05T13:35:08.129Z"
+    },
+    "0820000000": {
+      "hash": "f88b70884078ec7befbb5a4a5dd36df00da98ddaa8a34e8a00af32fa0eb00e08",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.136Z",
+      "expiresAt": "2026-11-05T13:35:08.136Z"
+    },
+    "0820000001": {
+      "hash": "842cd860339af0afb287db0ed5afce612feda058982c3fe739047642c5590e07",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.141Z",
+      "expiresAt": "2026-11-05T13:35:08.141Z"
+    },
+    "0820000002": {
+      "hash": "ed51d546a5f323e9144397d5cb7eb8395ae98898d59cd456ee1c18898841b66e",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.146Z",
+      "expiresAt": "2026-11-05T13:35:08.146Z"
+    },
+    "0820000003": {
+      "hash": "1f55062018cfb5451ddf72df0a678e4d3b7e759b407a9f5c22b58240b1ed5957",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.152Z",
+      "expiresAt": "2026-11-05T13:35:08.151Z"
+    },
+    "0820000004": {
+      "hash": "c25c68c87b31723cb8e204f4091595ddf54928a71dc1bd351751f617381c0aba",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.155Z",
+      "expiresAt": "2026-11-05T13:35:08.155Z"
+    },
+    "0820000005": {
+      "hash": "ef2f1a771da8f57749a26b717500ef9aa192a76bf7f2827d64f31af0fb1ffc31",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.159Z",
+      "expiresAt": "2026-11-05T13:35:08.159Z"
+    },
+    "0820000006": {
+      "hash": "fd8d8e4a9a9309b9d5334ad69538369595ed1c6959c99340d5dbc91bcf13b762",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.164Z",
+      "expiresAt": "2026-11-05T13:35:08.164Z"
+    },
+    "0820000007": {
+      "hash": "83f5a62191c97055cd7053b648e15160cf0fb7a8cda3a7d15ac91306c047f163",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.168Z",
+      "expiresAt": "2026-11-05T13:35:08.168Z"
+    },
+    "0820000008": {
+      "hash": "ab7fd6beafa1e2f493a83203e2a42c06311e212f6dfc23d7848821b690449c78",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.172Z",
+      "expiresAt": "2026-11-05T13:35:08.172Z"
+    },
+    "0820000009": {
+      "hash": "0266f4060a1ad59dc3ec35a0f54113b239753e7b9be04966f06d776080145739",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.178Z",
+      "expiresAt": "2026-11-05T13:35:08.178Z"
+    },
+    "08200000010": {
+      "hash": "39b64b5c1deea2a2ab05247b53dee19c00682bd9620dd41dcf72b0e47f1827ab",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.182Z",
+      "expiresAt": "2026-11-05T13:35:08.182Z"
+    },
+    "08200000011": {
+      "hash": "d5c890a50a347348fd19f25e045188a18859449030f8e6d44892985be67e9ad7",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.186Z",
+      "expiresAt": "2026-11-05T13:35:08.186Z"
+    },
+    "08200000012": {
+      "hash": "c77f63e96936e7065f67e9a9520636fba66f5199ae16e604ccc81f10f549285e",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.189Z",
+      "expiresAt": "2026-11-05T13:35:08.189Z"
+    },
+    "08200000013": {
+      "hash": "0b549acb6fff43c81233ac0fd3646ecc4d97e2c0a1813d3a59c5dc88ac7b7a04",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.194Z",
+      "expiresAt": "2026-11-05T13:35:08.194Z"
+    },
+    "08200000014": {
+      "hash": "552ff17e8902b0a1af48d8edef453c8794ba08cd30d02962fe7fca13fbad3669",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.199Z",
+      "expiresAt": "2026-11-05T13:35:08.199Z"
+    },
+    "08200000015": {
+      "hash": "04184d5f2d3b4318214b9def8d3957b3e1e331d6d0eaac939404ee2701461532",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.202Z",
+      "expiresAt": "2026-11-05T13:35:08.202Z"
+    },
+    "08200000016": {
+      "hash": "0653e86a9ab916d29bece9330c571be3f26a6cf498b421e36609582fdcd64260",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.206Z",
+      "expiresAt": "2026-11-05T13:35:08.206Z"
+    },
+    "08200000017": {
+      "hash": "f3e0e9847bf25a1ad344710847c4e3cfa16ad95df4bca1059d95305062200fcd",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.210Z",
+      "expiresAt": "2026-11-05T13:35:08.210Z"
+    },
+    "08200000018": {
+      "hash": "bbedbe11a99aaa816f199c6fbcfce023fcb2eac83c1a755b3f45d52a60dd74c1",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.214Z",
+      "expiresAt": "2026-11-05T13:35:08.214Z"
+    },
+    "08200000019": {
+      "hash": "712ae01ca86625099fecc197933b6a3a8b93fda208a84fb67476a966f38388c4",
+      "type": "sms",
+      "attempts": 0,
+      "createdAt": "2026-11-05T13:30:08.217Z",
+      "expiresAt": "2026-11-05T13:35:08.217Z"
+    },
+    "0845556677": {
+      "hash": "1509f39cc14d8ffc4d874012423b04a998a3cf6fbdcd625b274ddc08856dd454",
+      "type": "sms",
+      "attempts": 1,
+      "createdAt": "2026-11-05T13:30:08.231Z",
+      "expiresAt": "2026-11-05T13:35:08.231Z"
+    }
+  }
+}
